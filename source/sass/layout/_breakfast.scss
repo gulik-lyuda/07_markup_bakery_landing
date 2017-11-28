@@ -1,0 +1,84 @@
+.breakfast {
+  background-image: url('../images/backgrounds/breakfast-bg.png');
+  background-repeat: no-repeat;
+  height: 760px;
+  padding-top: 30px;
+
+  .left-part {
+
+    .section-header {
+      padding-top: 33px;
+      h2 {
+        color: #fff;
+        margin-bottom: 0;
+      }
+
+      h4 {
+        color: #c8a593;
+        margin-top: 0;
+      }
+    }
+
+    .breakfast-menu {
+      padding-top: 30px;
+
+      .menu-item {
+        padding-bottom: 30px;
+
+        .item-name {
+          font-family: 'alegreyabold';
+          font-size: 30px;
+          text-align: center;
+          color: #fff;
+
+        }
+
+        .item-description {
+          font-family: 'proxima_nova_rgregular';
+          font-size: 16px;
+          text-align: center;
+          color: #c2beba;
+        }
+
+        .item-cost {
+          font-family: 'alegreyaregular';
+          font-size: 36px;
+          text-align: center;
+          color: #dfc691;
+        }
+
+      }
+    }
+  }
+
+  .right-part {
+    background-image: url('../images/backgrounds/breakfast-right-part-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 645px;
+    margin: 58px 0 0 68px;
+
+    .top-part {
+      //padding: 30px 80px;
+
+      span {
+        font-family: 'alegreyabold';
+        font-size: 14px;
+        color: #56534c;
+
+        float: left;
+      }
+
+      .top-part-bottom-border {
+        background-image: url('../images/backgrounds/breakfast-right-part-divider.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        top: 75px;
+        left: 123px;
+      }
+
+    }
+  }
+}

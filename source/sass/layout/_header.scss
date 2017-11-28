@@ -1,0 +1,140 @@
+header {
+  min-height: 900px;
+  position: relative;
+  background-image: url('../images/backgrounds/header-bg.png');
+  background-size: 100%;
+  color: #fff;
+
+  .top-header {
+    min-height: 70px;
+    background-color: rgba(86, 83, 76, 0.53);
+
+    .logo {
+      display: block;
+      padding-left: 6px;
+      line-height: 60px;
+
+      font-family: 'scriptinaregular';
+      font-size: 30px;
+      letter-spacing: 9px;
+      text-align: left;
+    }
+
+    nav {
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+          padding: 0 7px;
+
+          a {
+            font-family: 'alegreyaregular';
+            font-size: 14px;
+            color: #fff;
+            letter-spacing: 4px;
+            line-height: 70px;
+            text-transform: uppercase;
+
+            display: block;
+            padding: 0 0 0 17px;
+
+            &:after {
+              content: '\007E';
+              padding: 0 0 0 37px;
+            }
+          }
+
+          &:nth-child(5) {
+            a:after {
+              content: '';
+              padding: 0;
+            }
+          }
+        }
+      }
+
+    }
+
+    .social-networks {
+      line-height: 70px;
+      float: right;
+
+      span {
+        display: inline-block;
+        height: 17px;
+        width: 17px;
+        vertical-align: middle;
+        padding: 0 13px;
+
+        background-image: url('../images/icons/header-social-networks-iconset.png');
+      }
+
+      .twitter-icon {
+        background-position: 0 17px;
+      }
+
+      .facebook-icon {
+        background-position: -20px 17px;
+      }
+
+      .instagram-icon {
+        background-position: -44px 17px;
+      }
+    }
+  }
+
+  h1 {
+    padding: 182px 0 50px;
+    text-align: center;
+    letter-spacing: 6px;
+  }
+
+  .header-divider {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    height: 12px;
+    width: 190px;
+    background-image: url('../images/content/header-divider.png');
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+
+    padding-bottom: 53px;
+  }
+
+  .our-menu-button {
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(86, 83, 76, 0.53);
+    border: 1px dashed #9e9c93;
+
+    font-family: 'alegreyabold';
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .header-bottom-border {
+    background-image: url('../images/content/header-bottom-border.png');
+    background-repeat: no-repeat;
+
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    bottom: -60px;  //a half of a general background height
+  }
+}

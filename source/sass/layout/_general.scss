@@ -1,0 +1,41 @@
+.page-wrapper {
+ width: 1600px;
+
+  h1 {
+    font-family: 'playfair_displaybold';
+    font-size: 92px;
+    color: #fff;
+  }
+
+  h3 {
+    font-family: 'alegreyabold';
+    font-size: 24px;
+    line-height: 24px;
+    color: #56534c;
+
+  }
+
+  p {
+    font-family: 'proxima_nova_rgregular';
+  }
+
+  .section-header {
+    font-family: 'alegreyabold';
+    text-align: center;
+
+    h2 {
+      font-size: 48px;
+      color: #56534c;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+    }
+
+    h4 {
+      font-size: 14px;
+      //line-height: 30px;
+      color: #a47d5e;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
